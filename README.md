@@ -1,11 +1,11 @@
-# Max-Div Alignment Validator — Code Handover
+# Max-Div Alignment Validator - Code Handover
 
 The code you build on for the **Max-Div Alignment Validator** project. See the
 `maxdiv_alignment_validator_spec` document for what to build; this file explains
 the code you're given and how to use it.
 
 Your tool's job is to **display and validate** the existing max-div / shear cue
-on video or a live camera — not to re-implement or improve it. Everything here
+on video or a live camera - not to re-implement or improve it. Everything here
 is camera-only; **no robot is involved at any stage.**
 
 > **Read `read_this_first_paper_vs_code` before the paper draft.** The paper and
