@@ -150,13 +150,13 @@ pip install pyrealsense2                             # only if you use a live ca
 
 - **Frontal is a genuinely hard case, not a bug.** When the camera faces a
   surface square-on, the divergence field is flat and the shear shrinks to near
-  zero — so the max-div point wanders and the direction estimate becomes
+  zero  so the max-div point wanders and the direction estimate becomes
   meaningless. Your tool's job is to **detect and flag** this (M5), not to fix it.
   A clip that reads "low confidence" near frontal is the tool working correctly.
 - **The shear direction has known limits on the real rig.** The supervisor has
   measured cases where the recovered direction doesn't fully resolve which way the
   surface is tilted. Don't be alarmed if validation shows the estimate failing in
-  some conditions — **documenting where it fails is a valid, valuable result.**
+  some conditions  **documenting where it fails is a valid, valuable result.**
 - **Depth is validation only.** Use it as independent truth; never feed it into
   the cue. Keeping the cue purely monocular is the whole point.
 - **Use `arc_vec` + `axis_strength` for the direction cue**, not the raw max-div
@@ -178,8 +178,3 @@ pip install pyrealsense2                             # only if you use a live ca
 
 ---
 
-## What's not here
-
-Arm control and the closed-loop docking code are not included — this project
-touches no hardware beyond (optionally) a camera. If you think you need the arm,
-you've drifted from the project scope; check with the supervisor.
