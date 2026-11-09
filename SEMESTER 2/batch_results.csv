@@ -1,0 +1,13 @@
+clip,total_frames,valid_frames,coverage_pct,mean_est_az_deg,true_azimuth_deg,mean_error_deg,median_error_deg,max_error_deg,mean_tau_s,status
+book.mov,275,72,26.2,-15.2,,,,,559.808,OK
+bottle.MOV,446,123,27.6,-17.6,,,,,44.316,OK
+bottle2.mov,292,138,47.3,6.7,,,,,178.133,OK
+cat.mov,241,103,42.7,-0.1,,,,,15.164,OK
+testm1.mp4,331,26,7.9,-22.0,,,,,170.32,OK
+tilt.mov,264,6,2.3,-31.7,,,,,1380.319,OK
+tiltwall.mov,390,36,9.2,10.0,,,,,108.55,OK
+trial_01_165649_raw.mp4,184,118,64.1,35.5,,,,,3.452,OK
+trial_01_170348_raw.mp4,346,132,38.2,19.1,,,,,8.911,OK
+trial_01_174329_raw.mp4,228,29,12.7,18.9,,,,,13.556,OK
+trial_02_143958_raw.mp4,678,17,2.5,-24.5,,,,,17.15,OK
+wall.MOV,240,22,9.2,-7.0,,,,,165.485,OK
