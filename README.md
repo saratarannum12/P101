@@ -8,9 +8,6 @@ Your tool's job is to **display and validate** the existing max-div / shear cue
 on video or a live camera - not to re-implement or improve it. Everything here
 is camera-only; **no robot is involved at any stage.**
 
-> **Read `read_this_first_paper_vs_code` before the paper draft.** The paper and
-> this code describe overlapping but *different* systems. For your work,
-> `maxdiv_perception.py` is ground truth; the paper is background.
 
 ---
 
