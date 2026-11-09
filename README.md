@@ -2,7 +2,7 @@
 
 A Python tool that wraps Chris McCarthy's MaxDivProcessor algorithm to display and validate the max-div shear cue on recorded video footage or a live Intel RealSense D415 depth camera stream.
 
-The tool's job is to **display and validate** the existing max-div shear cue. It does not re-implement or improve the perception engine. Everything here is camera-only. No robot is involved at any stage.
+The tool's job is to **display and validate** the existing max-div shear cue. It does not re-implement or improve the perception engine. Everything here is camera-only. 
 
 ---
 
